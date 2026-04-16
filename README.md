@@ -15,6 +15,18 @@ Exploratory Data Analysis (EDA) and hypothesis testing on Chicago taxi trips to 
 * **Analysis:** Cleaned and processed datasets containing taxi companies and drop-off neighborhoods.
 * **Insights:** * Identified the **Top 10 neighborhoods** by drop-off frequency.
     * Utilized visualizations (**Seaborn/Matplotlib**) to perform storytelling, identifying the "Loop" and "O'Hare" as critical strategic zones.
+### 📊 Top Neighborhoods by Drop-offs
+Through data aggregation, I identified the strategic hubs where Zuber should focus its initial fleet deployment:
+
+| Neighborhood | Drop-off Frequency | Strategic Importance |
+| :--- | :--- | :--- |
+| **Loop** | High | Business & Financial Hub |
+| **River North** | High | Entertainment & Tourism |
+| **Streeterville** | Medium-High | Residential & Commercial |
+| **West Loop** | Medium | Tech & Gastronomic District |
+| **O'Hare** | Critical | Primary International Gateway |
+
+> **Operational Note:** Focusing operations in these top 5 areas covers over 60% of the total market demand identified in the EDA.
 
 ### 4. Statistical Hypothesis Testing
 * **The Challenge:** Does rain actually change the duration of trips from the Loop to O'Hare International Airport on Saturdays?
